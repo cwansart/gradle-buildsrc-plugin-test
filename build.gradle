@@ -1,7 +1,7 @@
 plugins {
     // Apply the application plugin to add support for building a CLI application in Java.
     id 'application'
-    id 'my-plugin' // Custom plugin defined in buildSrc
+    id 'my-object-factory-task' // Custom plugin defined in buildSrc
 }
 
 repositories {
