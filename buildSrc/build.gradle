@@ -10,11 +10,6 @@ plugins {
     id 'java-gradle-plugin'
 }
 
-repositories {
-    // Use Maven Central for resolving dependencies.
-    mavenCentral()
-}
-
 gradlePlugin {
     // Define the plugin
     plugins {
@@ -24,4 +19,3 @@ gradlePlugin {
         }
     }
 }
-
