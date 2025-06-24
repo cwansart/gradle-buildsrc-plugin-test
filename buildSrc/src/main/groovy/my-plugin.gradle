@@ -1,0 +1,11 @@
+abstract class MyPlugin extends DefaultTask {
+    @TaskAction
+    public void greet() {
+        System.out.println("Hello from MyPlugin!");
+    }
+}
+
+tasks.register("myPluginTask", MyPlugin) {
+    group = "MyPlugin"
+    description = "A test plugin."
+}
